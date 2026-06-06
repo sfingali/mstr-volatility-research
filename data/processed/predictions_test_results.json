@@ -1,0 +1,129 @@
+{
+  "prediction_5_debt_timing": {
+    "label": "Convertible debt issuance clusters at low BTC volatility",
+    "result": "CONFIRMED",
+    "detail": "82% of issuances occurred in Low vol regime \u2014 strong clustering",
+    "data": [
+      {
+        "date": "2020-12-04",
+        "amount_b": 0.65,
+        "note": "0.75% due 2025",
+        "rv_30d": 0.014301,
+        "regime": "MED",
+        "drawdown_pct": "-4.726422341333492%",
+        "btc_price": 18765.0
+      },
+      {
+        "date": "2021-02-17",
+        "amount_b": 1.05,
+        "note": "0% due 2027",
+        "rv_30d": 0.003268,
+        "regime": "LOW",
+        "drawdown_pct": "0.0%",
+        "btc_price": 48578.0
+      },
+      {
+        "date": "2021-06-08",
+        "amount_b": 0.5,
+        "note": "6.125% due 2028",
+        "rv_30d": 0.004794,
+        "regime": "LOW",
+        "drawdown_pct": "-44.13967754620527%",
+        "btc_price": 35513.0
+      },
+      {
+        "date": "2021-11-10",
+        "amount_b": 0.5,
+        "note": "0% due 2028",
+        "rv_30d": 0.002613,
+        "regime": "LOW",
+        "drawdown_pct": "-4.132972310743066%",
+        "btc_price": 63274.0
+      },
+      {
+        "date": "2022-03-10",
+        "amount_b": 0.2,
+        "note": "0% due 2032",
+        "rv_30d": 0.003427,
+        "regime": "LOW",
+        "drawdown_pct": "-43.743009156644206%",
+        "btc_price": 37988.0
+      },
+      {
+        "date": "2024-03-04",
+        "amount_b": 0.8,
+        "note": "0.625% due 2030",
+        "rv_30d": 0.002675,
+        "regime": "LOW",
+        "drawdown_pct": "-7.608836500047467%",
+        "btc_price": 62388.0
+      },
+      {
+        "date": "2024-06-10",
+        "amount_b": 0.8,
+        "note": "2.25% due 2032",
+        "rv_30d": 0.002247,
+        "regime": "LOW",
+        "drawdown_pct": "-5.08647518263049%",
+        "btc_price": 69356.0
+      },
+      {
+        "date": "2024-09-13",
+        "amount_b": 1.01,
+        "note": "0.875% due 2028",
+        "rv_30d": 0.002802,
+        "regime": "LOW",
+        "drawdown_pct": "-21.124826730088696%",
+        "btc_price": 57636.0
+      },
+      {
+        "date": "2024-11-05",
+        "amount_b": 3.0,
+        "note": "0% due 2029",
+        "rv_30d": 0.00225,
+        "regime": "LOW",
+        "drawdown_pct": "-5.060281986046444%",
+        "btc_price": 69375.0
+      },
+      {
+        "date": "2025-03-03",
+        "amount_b": 2.08,
+        "note": "0% due 2030",
+        "rv_30d": 0.00586,
+        "regime": "MED",
+        "drawdown_pct": "-20.53240593752892%",
+        "btc_price": 84350.0
+      },
+      {
+        "date": "2025-06-09",
+        "amount_b": 0.7,
+        "note": "convertible",
+        "rv_30d": 0.003542,
+        "regime": "LOW",
+        "drawdown_pct": "-6.632069252842154%",
+        "btc_price": 104288.0
+      }
+    ],
+    "summary": {
+      "low_vol_issuances": 9,
+      "med_vol_issuances": 2,
+      "high_vol_issuances": 0,
+      "total": 11
+    }
+  },
+  "prediction_6_buying_rate": {
+    "label": "MSTR reduces buying during high NAV premium / euphoria",
+    "result": "NOT CONFIRMED",
+    "detail": "Buying rate increases or unchanged: 1,199 \u2192 3,532 BTC/day",
+    "data": {
+      "high_premium_buys": 20,
+      "high_premium_rate_btc_per_day": 3532.0,
+      "low_premium_buys": 396,
+      "low_premium_rate_btc_per_day": 1199.0,
+      "overall_rate_btc_per_day": 1311.0,
+      "nov2024_peak_rate_btc_per_day": 5737.0,
+      "nov2024_total_btc": 348276
+    }
+  },
+  "generated_at": "2026-06-06T16:31:11.365316"
+}
