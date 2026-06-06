@@ -1,0 +1,114 @@
+{
+  "summary": {
+    "total_purchases_analysed": 416,
+    "date_range": {
+      "first_purchase": "2020-08-11",
+      "last_purchase": "2026-06-05"
+    },
+    "purchase_amount_stats": {
+      "total_spent_usd": 227929132151.0,
+      "mean_per_purchase_usd": 547906567.6706731,
+      "median_per_purchase_usd": 36361109.0,
+      "total_btc_acquired": 2845900.0
+    },
+    "vol_at_purchase_stats": {
+      "mean_vol": 0.005887,
+      "median_vol": 0.003548,
+      "min_vol": 0.001531,
+      "max_vol": 0.092068
+    }
+  },
+  "statistical_tests": {
+    "ks_test": {
+      "test": "KS test (BTC price at purchase vs overall)",
+      "n_purchase_dates": 416,
+      "n_overall_days": 2349,
+      "ks_statistic": 0.1446,
+      "p_value": 6.492690982501907e-07,
+      "significant_at_5pct": true,
+      "interpretation": "Purchase-date BTC prices differ significantly from overall BTC price distribution"
+    },
+    "bootstrap_vol_test": {
+      "test": "Bootstrap test (30d vol at purchase dates vs random dates)",
+      "n_purchase_dates": 416,
+      "n_bootstrap_samples": 10000,
+      "observed_mean_vol": 0.005887,
+      "mean_of_random_means": 0.011537,
+      "ci_random_mean_95pct": [
+        0.007509,
+        0.016472
+      ],
+      "p_value_upper_tail": 0.9995,
+      "p_value_two_tailed": 0.001,
+      "significant_at_5pct": true,
+      "interpretation": "Volatility at purchase dates is significantly DIFFERENT from random dates"
+    },
+    "drawdown_analysis": {
+      "n_total_purchases": 416,
+      "any_drawdown": {
+        "count": 407,
+        "percentage": 97.84
+      },
+      "greater_than_10pct": {
+        "count": 349,
+        "percentage": 83.89
+      },
+      "greater_than_20pct": {
+        "count": 306,
+        "percentage": 73.56
+      },
+      "greater_than_30pct": {
+        "count": 274,
+        "percentage": 65.87
+      },
+      "greater_than_40pct": {
+        "count": 217,
+        "percentage": 52.16
+      },
+      "mean_drawdown_pct": -39.56,
+      "median_drawdown_pct": -43.34
+    },
+    "autocorrelation": {
+      "n_purchases": 416,
+      "min_interval_days": 1,
+      "max_interval_days": 81,
+      "median_interval_days": 4.0,
+      "mean_interval_days": 5.1,
+      "std_interval_days": 6.6,
+      "correlation_interval_vs_vol": {
+        "pearson_r": -0.0148,
+        "p_value": 0.763966183747067,
+        "significant_at_5pct": false,
+        "interpretation": "No significant correlation between interval length and vol"
+      }
+    },
+    "seasonality": {
+      "weekday_distribution": {
+        "Monday": 169,
+        "Tuesday": 87,
+        "Wednesday": 53,
+        "Thursday": 59,
+        "Friday": 48,
+        "Saturday": 0,
+        "Sunday": 0
+      },
+      "chi_square_weekday_uniform": {
+        "chi2_stat": 336.5673,
+        "p_value": 1.1791062673365518e-69,
+        "significant_at_5pct": true
+      },
+      "end_of_month": {
+        "exact_month_end_count": 10,
+        "last_3_days_count": 39,
+        "total_purchases": 416
+      }
+    },
+    "volume_vs_volatility": {
+      "test": "Pearson correlation (purchase amount vs 30d vol)",
+      "n": 416,
+      "pearson_r": -0.0887,
+      "p_value": 0.07079729431703458,
+      "significant_at_5pct": false
+    }
+  }
+}

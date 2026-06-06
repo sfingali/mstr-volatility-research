@@ -1,0 +1,150 @@
+{
+  "analysis_metadata": {
+    "script": "scripts/sell_event_analysis.py",
+    "generated_at": "2026-06-06T15:27:24.855806",
+    "sell_event": "2026-05-26 (32 BTC, $2,480,672)"
+  },
+  "btc_market_conditions": {
+    "pre_sell": {
+      "start_date": "2026-04-26",
+      "end_date": "2026-05-25",
+      "days": 30,
+      "price_start": 78657.55,
+      "price_end": 77322.01,
+      "price_min": 75539.5,
+      "price_max": 82210.07,
+      "price_mean": 78611.36833333332,
+      "price_change_pct": -1.6979171103091921,
+      "daily_return_mean_pct": -0.0038411361506507685,
+      "daily_return_std": 1.3785210889726498,
+      "drawdown_at_sell": -37.97295395887037,
+      "rv_7d_mean": 0.006448500666005392,
+      "rv_14d_mean": 0.006682117967115334,
+      "rv_30d_mean": 0.006819478186049376,
+      "max_drawdown": -39.40286802653071,
+      "worst_day_return": -2.6747485554435517,
+      "best_day_return": 2.46842785471566,
+      "negative_days": 14,
+      "positive_days": 16
+    },
+    "post_sell": {
+      "start_date": "2026-05-26",
+      "end_date": "2026-06-06",
+      "days": 12,
+      "price_start": 75930.01,
+      "price_end": 60510.67,
+      "price_min": 60510.67,
+      "price_max": 75930.01,
+      "price_mean": 69398.49833333334,
+      "price_change_pct": -20.307306689410414,
+      "daily_return_mean_pct": -2.001417331907856,
+      "daily_return_std": 2.0989362578871393,
+      "max_drawdown_from_sell": -51.45886515276049,
+      "rv_7d_mean": 0.005049290342979758,
+      "rv_14d_mean": 0.00494937794514765,
+      "rv_30d_mean": 0.004493937955212291,
+      "worst_day_return": -6.509090603552203,
+      "best_day_return": 0.5766342257732759,
+      "negative_days": 11,
+      "positive_days": 1
+    },
+    "sell_day": {
+      "date": "2026-05-26",
+      "btc_price": 75930.01,
+      "daily_return_pct": -1.8002635989416205,
+      "drawdown_pct": -39.08960429024758,
+      "rv_7d": 0.0104035514086045,
+      "rv_14d": 0.0088644860493382,
+      "rv_30d": 0.0079387827982349
+    }
+  },
+  "mstr_equity_analysis": {
+    "pre_sell": {
+      "days": 20,
+      "price_start": 169.199997,
+      "price_end": 159.889999,
+      "price_min": 158.190002,
+      "price_max": 195.940002,
+      "price_change_pct": -5.502362981720388,
+      "nav_premium_mean": 1.433211,
+      "nav_premium_start": 1.400707,
+      "nav_premium_end": 1.365024,
+      "nav_premium_min": 1.342611,
+      "nav_premium_max": 1.541893,
+      "volume_mean": 14880040.0
+    },
+    "post_sell": {
+      "days": 9,
+      "price_start": 159.929993,
+      "price_end": 120.440002,
+      "price_min": 120.440002,
+      "price_max": 159.929993,
+      "price_change_pct": -24.692048226376144,
+      "nav_premium_mean": 1.3289187777777778,
+      "nav_premium_start": 1.359289,
+      "nav_premium_end": 1.276971,
+      "nav_premium_min": 1.27695,
+      "nav_premium_max": 1.397358,
+      "volume_mean": 21734122.222222224
+    },
+    "sell_day": {
+      "close": 159.929993,
+      "nav_premium": 1.359289,
+      "btc_holdings_value": 41310542519.109375,
+      "market_cap": 56152946160.59693,
+      "leverage_ratio": 0.167462,
+      "volume": 11819500.0
+    }
+  },
+  "holdings_context": {
+    "sell_date": "2026-05-26",
+    "btc_sold": 32,
+    "usd_value": 2480672.0,
+    "btc_held_before_sell": 2800709,
+    "btc_held_after_sell": 2800677,
+    "source": "BTC SALE \u2014 first sale since 2022 (32 BTC for $2.5M, preferred dividends)",
+    "pct_of_total_holdings": 0.001143,
+    "pct_of_total_spend": 0.001088,
+    "total_spent_all_time_usd": 227929132151.0,
+    "prior_sell_events_count": 1,
+    "last_sell_before_this": "never",
+    "accumulation_after_sell": {
+      "days_with_purchases": 2,
+      "total_btc_bought": 45191.0,
+      "total_spent_usd": 2710837874.0,
+      "specific_purchases": {
+        "june_1": {
+          "btc_change": 11247.0,
+          "total_cost_usd": 654103026.0,
+          "btc_held_after": 2811924.0
+        },
+        "june_5": {
+          "btc_change": 33944.0,
+          "total_cost_usd": 2056734848.0,
+          "btc_held_after": 2845868.0
+        }
+      }
+    }
+  },
+  "overall_pattern": {
+    "total_sell_events": 1,
+    "total_btc_sold": 32,
+    "sell_dates": [
+      "2026-05-26"
+    ],
+    "sell_amounts": [
+      32
+    ],
+    "sell_reasons": [
+      "BTC SALE \u2014 first sale since 2022 (32 BTC for $2.5M, preferred dividends)"
+    ],
+    "is_first_sell_since_2022": true,
+    "one_off_assessment": "Likely a one-off \u2014 32 BTC is trivial relative to 2.8M BTC holdings (0.0011%). Subsequent purchases (June 1 + June 5: ~45K BTC) far exceed the tiny sell. Purpose was preferred dividend payment, not strategic reduction."
+  },
+  "market_context": {
+    "period": "Late May 2026",
+    "btc_price_range": "$73,500 - $77,900 (around sell date)",
+    "btc_drawdown": "~39% from ATH of $124,659",
+    "market_context": "Bitcoin was in a significant drawdown phase (~39% below ATH). The sell event occurred during a period of declining prices \u2014 BTC dropped from $77,322 on May 25 to $75,930 on May 26, and continued falling to ~$61,056 by June 5. This was a broad market correction with elevated volatility (RV-7d ~1.0% on sell day). MSTR stock also weakened, falling from ~$160 to ~$150 in the same period. The sell was purely administrative (preferred dividends), not strategic \u2014 MSTR immediately resumed buying, adding 11,247 BTC on June 1 and 33,944 BTC on June 5."
+  }
+}

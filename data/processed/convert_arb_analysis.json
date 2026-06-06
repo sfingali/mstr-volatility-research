@@ -1,0 +1,387 @@
+{
+  "analysis_timestamp": "2026-06-06T15:27:22.123879",
+  "total_issuances_analyzed": 11,
+  "issuance_details": [
+    {
+      "issue_date": "2020-12-09",
+      "principal_amount": 650000000.0,
+      "coupon_rate": 0.0075,
+      "maturity_year": 2025,
+      "description": "0.75% Convertible Senior Notes due 2025",
+      "btc_price_at_issuance": 18541.28,
+      "rv_30d_at_issuance": 0.0141182653029068,
+      "nav_premium_at_issuance": 0.373729,
+      "total_btc_bought_30d": 29646,
+      "total_cost_30d_usd": 580142574.0,
+      "btc_bought_explicitly_from_convert": 0,
+      "cost_from_convert_usd": 0.0,
+      "num_purchases_within_30d": 1,
+      "purchase_dates": [
+        "2020-12-21"
+      ],
+      "purchase_latencies_days": [
+        12
+      ],
+      "avg_purchase_latency_days": 12.0,
+      "min_purchase_latency_days": 12,
+      "share_count_change_pct_around_issuance": 0.0,
+      "total_debt_before_issuance": 0.0,
+      "total_debt_after_issuance": 650000000.0
+    },
+    {
+      "issue_date": "2021-02-17",
+      "principal_amount": 1050000000.0,
+      "coupon_rate": 0.0,
+      "maturity_year": 2027,
+      "description": "0% Convertible Senior Notes due 2027",
+      "btc_price_at_issuance": 52119.71,
+      "rv_30d_at_issuance": 0.0053000860917129,
+      "nav_premium_at_issuance": 0.226634,
+      "total_btc_bought_30d": 18678,
+      "total_cost_30d_usd": 955200169.0,
+      "btc_bought_explicitly_from_convert": 16962,
+      "cost_from_convert_usd": 860352024.0,
+      "num_purchases_within_30d": 4,
+      "purchase_dates": [
+        "2021-02-17",
+        "2021-02-24",
+        "2021-03-05",
+        "2021-03-11"
+      ],
+      "purchase_latencies_days": [
+        0,
+        7,
+        16,
+        22
+      ],
+      "avg_purchase_latency_days": 11.2,
+      "min_purchase_latency_days": 0,
+      "share_count_change_pct_around_issuance": 8.4092,
+      "total_debt_before_issuance": 650000000.0,
+      "total_debt_after_issuance": 1700000000.0
+    },
+    {
+      "issue_date": "2021-06-14",
+      "principal_amount": 500000000.0,
+      "coupon_rate": 0.06125,
+      "maturity_year": 2028,
+      "description": "6.125% Convertible Senior Notes due 2028",
+      "btc_price_at_issuance": 40516.29,
+      "rv_30d_at_issuance": 0.0037719710836409,
+      "nav_premium_at_issuance": 0.159614,
+      "total_btc_bought_30d": 25282,
+      "total_cost_30d_usd": 809772735.0,
+      "btc_bought_explicitly_from_convert": 7953,
+      "cost_from_convert_usd": 297529683.0,
+      "num_purchases_within_30d": 4,
+      "purchase_dates": [
+        "2021-06-14",
+        "2021-06-21",
+        "2021-06-28",
+        "2021-07-09"
+      ],
+      "purchase_latencies_days": [
+        0,
+        7,
+        14,
+        25
+      ],
+      "avg_purchase_latency_days": 11.5,
+      "min_purchase_latency_days": 0,
+      "share_count_change_pct_around_issuance": 0.0103,
+      "total_debt_before_issuance": 1700000000.0,
+      "total_debt_after_issuance": 2200000000.0
+    },
+    {
+      "issue_date": "2021-11-18",
+      "principal_amount": 500000000.0,
+      "coupon_rate": 0.0,
+      "maturity_year": 2028,
+      "description": "0% Convertible Senior Notes due 2028",
+      "btc_price_at_issuance": 56891.62,
+      "rv_30d_at_issuance": 0.0047084878676701,
+      "nav_premium_at_issuance": 0.125902,
+      "total_btc_bought_30d": 6950,
+      "total_cost_30d_usd": 385321526.0,
+      "btc_bought_explicitly_from_convert": 0,
+      "cost_from_convert_usd": 0.0,
+      "num_purchases_within_30d": 5,
+      "purchase_dates": [
+        "2021-11-22",
+        "2021-11-29",
+        "2021-12-02",
+        "2021-12-07",
+        "2021-12-09"
+      ],
+      "purchase_latencies_days": [
+        4,
+        11,
+        14,
+        19,
+        21
+      ],
+      "avg_purchase_latency_days": 13.8,
+      "min_purchase_latency_days": 4,
+      "share_count_change_pct_around_issuance": 0.0,
+      "total_debt_before_issuance": 2200000000.0,
+      "total_debt_after_issuance": 2700000000.0
+    },
+    {
+      "issue_date": "2022-03-15",
+      "principal_amount": 205000000.0,
+      "coupon_rate": 0.0,
+      "maturity_year": 2032,
+      "description": "0% Convertible Senior Notes due 2032",
+      "btc_price_at_issuance": 39280.33,
+      "rv_30d_at_issuance": 0.0033574281211594,
+      "nav_premium_at_issuance": 0.099188,
+      "total_btc_bought_30d": 8526,
+      "total_cost_30d_usd": 377811598.0,
+      "btc_bought_explicitly_from_convert": 0,
+      "cost_from_convert_usd": 0.0,
+      "num_purchases_within_30d": 6,
+      "purchase_dates": [
+        "2022-03-17",
+        "2022-03-22",
+        "2022-03-30",
+        "2022-04-04",
+        "2022-04-08",
+        "2022-04-13"
+      ],
+      "purchase_latencies_days": [
+        2,
+        7,
+        15,
+        20,
+        24,
+        29
+      ],
+      "avg_purchase_latency_days": 16.2,
+      "min_purchase_latency_days": 2,
+      "share_count_change_pct_around_issuance": -8.853,
+      "total_debt_before_issuance": 2700000000.0,
+      "total_debt_after_issuance": 2905000000.0
+    },
+    {
+      "issue_date": "2024-03-08",
+      "principal_amount": 800000000.0,
+      "coupon_rate": 0.00625,
+      "maturity_year": 2030,
+      "description": "0.625% Convertible Senior Notes due 2030",
+      "btc_price_at_issuance": 68124.19,
+      "rv_30d_at_issuance": 0.0015585760928775,
+      "nav_premium_at_issuance": 0.187241,
+      "total_btc_bought_30d": 26884,
+      "total_cost_30d_usd": 1808541127.0,
+      "btc_bought_explicitly_from_convert": 0,
+      "cost_from_convert_usd": 0.0,
+      "num_purchases_within_30d": 4,
+      "purchase_dates": [
+        "2024-03-11",
+        "2024-03-18",
+        "2024-03-25",
+        "2024-04-01"
+      ],
+      "purchase_latencies_days": [
+        3,
+        10,
+        17,
+        24
+      ],
+      "avg_purchase_latency_days": 13.5,
+      "min_purchase_latency_days": 3,
+      "share_count_change_pct_around_issuance": -4.1468,
+      "total_debt_before_issuance": 2905000000.0,
+      "total_debt_after_issuance": 3705000000.0
+    },
+    {
+      "issue_date": "2024-06-14",
+      "principal_amount": 800000000.0,
+      "coupon_rate": 0.0225,
+      "maturity_year": 2032,
+      "description": "2.25% Convertible Senior Notes due 2032",
+      "btc_price_at_issuance": 66043.99,
+      "rv_30d_at_issuance": 0.0029856055476576,
+      "nav_premium_at_issuance": 0.187433,
+      "total_btc_bought_30d": 18399,
+      "total_cost_30d_usd": 1131908178.0,
+      "btc_bought_explicitly_from_convert": 0,
+      "cost_from_convert_usd": 0.0,
+      "num_purchases_within_30d": 4,
+      "purchase_dates": [
+        "2024-06-17",
+        "2024-06-24",
+        "2024-07-01",
+        "2024-07-08"
+      ],
+      "purchase_latencies_days": [
+        3,
+        10,
+        17,
+        24
+      ],
+      "avg_purchase_latency_days": 13.5,
+      "min_purchase_latency_days": 3,
+      "share_count_change_pct_around_issuance": 0.2751,
+      "total_debt_before_issuance": 3705000000.0,
+      "total_debt_after_issuance": 4505000000.0
+    },
+    {
+      "issue_date": "2024-09-17",
+      "principal_amount": 1010000000.0,
+      "coupon_rate": 0.00875,
+      "maturity_year": 2028,
+      "description": "0.875% Convertible Senior Notes due 2028",
+      "btc_price_at_issuance": 60313.99,
+      "rv_30d_at_issuance": 0.0034447683558423,
+      "nav_premium_at_issuance": 1.806834,
+      "total_btc_bought_30d": 28046,
+      "total_cost_30d_usd": 1770273981.0,
+      "btc_bought_explicitly_from_convert": 0,
+      "cost_from_convert_usd": 0.0,
+      "num_purchases_within_30d": 6,
+      "purchase_dates": [
+        "2024-09-20",
+        "2024-09-23",
+        "2024-09-30",
+        "2024-10-03",
+        "2024-10-07",
+        "2024-10-14"
+      ],
+      "purchase_latencies_days": [
+        3,
+        6,
+        13,
+        16,
+        20,
+        27
+      ],
+      "avg_purchase_latency_days": 14.2,
+      "min_purchase_latency_days": 3,
+      "share_count_change_pct_around_issuance": -4.925,
+      "total_debt_before_issuance": 4505000000.0,
+      "total_debt_after_issuance": 5515000000.0
+    },
+    {
+      "issue_date": "2024-11-20",
+      "principal_amount": 3000000000.0,
+      "coupon_rate": 0.0,
+      "maturity_year": 2029,
+      "description": "0% Convertible Senior Notes due 2029",
+      "btc_price_at_issuance": 94286.56,
+      "rv_30d_at_issuance": 0.0039951457524252,
+      "nav_premium_at_issuance": 4.030192,
+      "total_btc_bought_30d": 178054,
+      "total_cost_30d_usd": 17124572325.0,
+      "btc_bought_explicitly_from_convert": 0,
+      "cost_from_convert_usd": 0.0,
+      "num_purchases_within_30d": 4,
+      "purchase_dates": [
+        "2024-11-25",
+        "2024-12-02",
+        "2024-12-09",
+        "2024-12-16"
+      ],
+      "purchase_latencies_days": [
+        5,
+        12,
+        19,
+        26
+      ],
+      "avg_purchase_latency_days": 15.5,
+      "min_purchase_latency_days": 5,
+      "share_count_change_pct_around_issuance": 9.3375,
+      "total_debt_before_issuance": 5515000000.0,
+      "total_debt_after_issuance": 8515000000.0
+    },
+    {
+      "issue_date": "2025-03-03",
+      "principal_amount": 2080000000.0,
+      "coupon_rate": 0.0,
+      "maturity_year": 2030,
+      "description": "0% Convertible Senior Notes due 2030",
+      "btc_price_at_issuance": 86220.61,
+      "rv_30d_at_issuance": 0.0048056513999485,
+      "nav_premium_at_issuance": 1.44676,
+      "total_btc_bought_30d": 225444,
+      "total_cost_30d_usd": 19153230296.0,
+      "btc_bought_explicitly_from_convert": 67539,
+      "cost_from_convert_usd": 5860021335.0,
+      "num_purchases_within_30d": 5,
+      "purchase_dates": [
+        "2025-03-03",
+        "2025-03-10",
+        "2025-03-17",
+        "2025-03-24",
+        "2025-03-31"
+      ],
+      "purchase_latencies_days": [
+        0,
+        7,
+        14,
+        21,
+        28
+      ],
+      "avg_purchase_latency_days": 14.0,
+      "min_purchase_latency_days": 0,
+      "share_count_change_pct_around_issuance": 0.0511,
+      "total_debt_before_issuance": 8515000000.0,
+      "total_debt_after_issuance": 10595000000.0
+    },
+    {
+      "issue_date": "2025-06-04",
+      "principal_amount": 700000000.0,
+      "coupon_rate": null,
+      "maturity_year": null,
+      "description": "Convertible Senior Notes due ~2032 (terms TBD at time of writing)",
+      "btc_price_at_issuance": 104696.86,
+      "rv_30d_at_issuance": 0.0032734634409021,
+      "nav_premium_at_issuance": 1.766726,
+      "total_btc_bought_30d": 126771,
+      "total_cost_30d_usd": 13399981173.0,
+      "btc_bought_explicitly_from_convert": 0,
+      "cost_from_convert_usd": 0.0,
+      "num_purchases_within_30d": 4,
+      "purchase_dates": [
+        "2025-06-09",
+        "2025-06-16",
+        "2025-06-23",
+        "2025-06-30"
+      ],
+      "purchase_latencies_days": [
+        5,
+        12,
+        19,
+        26
+      ],
+      "avg_purchase_latency_days": 15.5,
+      "min_purchase_latency_days": 5,
+      "share_count_change_pct_around_issuance": 0.2469,
+      "total_debt_before_issuance": 10595000000.0,
+      "total_debt_after_issuance": 11295000000.0
+    }
+  ],
+  "aggregate_estimates": {
+    "total_convert_proceeds_usd": 11295000000.0,
+    "estimated_delta_for_hedging": 0.8,
+    "estimated_short_interest_from_delta_hedging_usd": 9036000000.0,
+    "total_btc_purchased_all_time": 2845900.0,
+    "total_btc_purchased_explicit_convert_source": 207795.0,
+    "pct_btc_from_explicit_convert_sources": 7.3,
+    "total_convert_labeled_cost_usd": 16040860962.0
+  },
+  "correlations": {
+    "corr_convert_amount_vs_btc_30d": {
+      "pearson_r": 0.8064,
+      "p_value": 0.0027145374531517127,
+      "n": 11,
+      "interpretation": "Larger convert issuances significantly associated with more BTC bought within 30d"
+    },
+    "corr_nav_premium_vs_btc_30d": {
+      "pearson_r": 0.7327,
+      "p_value": 0.01031793490466991,
+      "n": 11,
+      "interpretation": "Higher NAV premium at issuance is significantly associated with more BTC buying"
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "model_1_hmm": {
+    "description": "BTC Volatility Regime Detection using HMM with 3 states",
+    "n_states": 3,
+    "state_labels": {
+      "0": "Low",
+      "1": "Medium",
+      "2": "High"
+    },
+    "hmm_results": {
+      "n_states": 3,
+      "state_labels": {
+        "0": "Low",
+        "1": "Medium",
+        "2": "High"
+      },
+      "state_means": {
+        "0": 0.3343,
+        "1": 0.766,
+        "2": 10.0032
+      },
+      "transition_matrix": [
+        [
+          0.9550340355236504,
+          0.044965964476349554,
+          9.040203196129876e-31
+        ],
+        [
+          0.11954784551998855,
+          0.8554237849009768,
+          0.02502836957903459
+        ],
+        [
+          2.8579741235960845e-09,
+          0.09072439535627207,
+          0.9092756017857538
+        ]
+      ],
+      "purchase_regime_counts": {
+        "Low": 322,
+        "Medium": 70,
+        "High": 24
+      },
+      "model_converged": true,
+      "start_probabilities": [
+        0.0,
+        1.8635814749489866e-300,
+        1.0
+      ]
+    },
+    "summary": "Identified Low/Medium/High vol regimes. MSTR buys predominantly in Low/Medium/High regimes."
+  },
+  "model_2_price_impact": {
+    "description": "Post-purchase BTC return analysis",
+    "n_purchases_analyzed": 416,
+    "windows_analyzed": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "returns_summary": {
+      "1h": {
+        "mean_pct": 0.050706490384615416,
+        "median_pct": -0.15760000000000002,
+        "std_pct": 2.788522234632909,
+        "positive_pct": 45.91346153846153,
+        "n_obs": 416
+      },
+      "6h": {
+        "mean_pct": 0.050706490384615416,
+        "median_pct": -0.15760000000000002,
+        "std_pct": 2.788522234632909,
+        "positive_pct": 45.91346153846153,
+        "n_obs": 416
+      },
+      "24h": {
+        "mean_pct": 0.050706490384615416,
+        "median_pct": -0.15760000000000002,
+        "std_pct": 2.788522234632909,
+        "positive_pct": 45.91346153846153,
+        "n_obs": 416
+      },
+      "72h": {
+        "mean_pct": 0.09087156626506032,
+        "median_pct": 0.2012,
+        "std_pct": 4.797478914415574,
+        "positive_pct": 53.01204819277109,
+        "n_obs": 415
+      },
+      "7d": {
+        "mean_pct": 0.9233881642512076,
+        "median_pct": 0.58785,
+        "std_pct": 7.6698497567847665,
+        "positive_pct": 55.072463768115945,
+        "n_obs": 414
+      }
+    }
+  },
+  "model_3_feedback_loop": {
+    "description": "NAV Premium - BTC Price cross-correlation and Granger causality",
+    "n_observations": 1718,
+    "cross_correlation": {
+      "btc_leads_nav_peak_lag": 1,
+      "btc_leads_nav_peak_corr": 0.6731012277628626,
+      "nav_leads_btc_peak_lag": 30,
+      "nav_leads_btc_peak_corr": 0.7147261871075637
+    },
+    "granger_causality": {
+      "btc_to_nav_best_p": 0.25882047726933805,
+      "btc_to_nav_significant_5pct": "False",
+      "nav_to_btc_best_p": 0.8250467534928078,
+      "nav_to_btc_significant_5pct": "False",
+      "adf_btc_return_p": 8.389165439380371e-21,
+      "adf_nav_premium_p": 0.4396549374330768
+    }
+  },
+  "model_4_counterfactual": {
+    "description": "Counterfactual simulation of BTC price without MSTR buying",
+    "total_mstr_btc_purchased": 2845900.0,
+    "mstr_share_of_supply_pct": 14.594358974358974,
+    "avg_daily_volume_btc": 70280.50294152832,
+    "market_impact_model": {
+      "sqrt_model_impact_pct": 0.151429749136053,
+      "simple_supply_demand_impact_pct": 14.594358974358974,
+      "dynamic_marginal_impact_pct": 0.3598371894165807
+    },
+    "current_btc_price": 60510.67,
+    "counterfactual_prices": {
+      "sqrt_model": 60419.17739124637,
+      "simple_supply_demand": 52804.23097749476,
+      "dynamic_marginal": 60293.71080564201
+    }
+  },
+  "model_5_sell_event": {
+    "description": "Analysis of May 2026 32 BTC sell event impact on volatility",
+    "details": {
+      "sell_date": "2026-05-26",
+      "btc_sold": -32.0,
+      "vol_before_mean": 0.47554228291664574,
+      "vol_after_mean": 0.4493937955212291,
+      "vol_change_pct": -5.498667171095701,
+      "vol_change_significant": false
+    }
+  }
+}
