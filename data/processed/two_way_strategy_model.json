@@ -1,0 +1,113 @@
+{
+  "analysis": {
+    "negative_premium_periods": {
+      "total_days_below_1x": 1229,
+      "pct_of_life": 71.5,
+      "total_days_below_0_5x": 1029,
+      "worst_premium": 0.051
+    },
+    "current_state": {
+      "btc_held": 2845866,
+      "shares_outstanding": 351911534,
+      "nav_premium": 1.28,
+      "total_debt": 11295000000.0,
+      "btc_price": 60923.0
+    },
+    "crash_scenario": {
+      "crash_pct": 0.4,
+      "assumed_premium": 0.6,
+      "btc_to_sell": 56917,
+      "proceeds": 2080521296.0,
+      "shares_bought_back": 3871005,
+      "shares_left": 332977654,
+      "debt_retired": 1373144055.0,
+      "debt_left": 9921855945.0
+    },
+    "recovery_scenario": {
+      "recovery_btc_price": 67015.0,
+      "assumed_premium": 2.0,
+      "new_convert_capacity": 56070370590.0,
+      "btc_bought": 836684,
+      "net_btc_change": 779767
+    },
+    "multi_cycle_simulation": [
+      {
+        "cycle": 1,
+        "btc_start": 2845866,
+        "btc_sold": 56917,
+        "btc_bought": 836684,
+        "btc_final": 3625633,
+        "shares_start": 351911534,
+        "shares_bought_back": 3871005,
+        "shares_final": 348040529,
+        "btc_per_share": 0.0104,
+        "debt_start": 11295000000,
+        "debt_final": 65992226535,
+        "net_btc_change": 779767,
+        "total_btc_growth_pct": 27.4
+      },
+      {
+        "cycle": 2,
+        "btc_start": 3625633,
+        "btc_sold": 72512,
+        "btc_bought": 1065936,
+        "btc_final": 4619058,
+        "shares_start": 348040529,
+        "shares_bought_back": 3828410,
+        "shares_final": 344212119,
+        "btc_per_share": 0.0134,
+        "debt_start": 65992226535,
+        "debt_final": 139160727234,
+        "net_btc_change": 993424,
+        "total_btc_growth_pct": 62.31
+      },
+      {
+        "cycle": 3,
+        "btc_start": 4619058,
+        "btc_sold": 92381,
+        "btc_bought": 1358003,
+        "btc_final": 5884680,
+        "shares_start": 344212119,
+        "shares_bought_back": 3786326,
+        "shares_final": 340425793,
+        "btc_per_share": 0.0173,
+        "debt_start": 139160727234,
+        "debt_final": 237038215321,
+        "net_btc_change": 1265622,
+        "total_btc_growth_pct": 106.78
+      },
+      {
+        "cycle": 4,
+        "btc_start": 5884680,
+        "btc_sold": 117693,
+        "btc_bought": 1730096,
+        "btc_final": 7497083,
+        "shares_start": 340425793,
+        "shares_bought_back": 3744664,
+        "shares_final": 336681129,
+        "btc_per_share": 0.0223,
+        "debt_start": 237038215321,
+        "debt_final": 367968956277,
+        "net_btc_change": 1612403,
+        "total_btc_growth_pct": 163.44
+      },
+      {
+        "cycle": 5,
+        "btc_start": 7497083,
+        "btc_sold": 149941,
+        "btc_bought": 2204142,
+        "btc_final": 9551285,
+        "shares_start": 336681129,
+        "shares_bought_back": 3703475,
+        "shares_final": 332977654,
+        "btc_per_share": 0.0287,
+        "debt_start": 367968956277,
+        "debt_final": 543115021407,
+        "net_btc_change": 2054201,
+        "total_btc_growth_pct": 235.62
+      }
+    ],
+    "key_insight": "Two-way strategy is MORE powerful than one-way accumulation. Selling BTC at the bottom enables balance sheet restructuring (share buybacks + debt retirement) that amplifies future buying capacity. Each cycle allows MSTR to grow net BTC position while surviving crashes."
+  },
+  "generated_at": "2026-06-06T16:46:08.910355"
+}
