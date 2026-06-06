@@ -1,0 +1,110 @@
+{
+  "snapshot": {
+    "snapshot_time": "2026-06-06T16:23:47.958859+00:00",
+    "snapshot_timestamp_ms": 1780763027958,
+    "btc_price": 60663.5,
+    "btc_price_at_snapshot": 60663.5,
+    "num_expiries_analyzed": 4,
+    "num_total_instruments": 1006,
+    "term_structure_slope": 12.8,
+    "expiry_data": {
+      "expiry_1d": {
+        "days_to_expiry": 0.7,
+        "atm_strike": 60500.0,
+        "atm_iv": 45.93,
+        "otm_put_iv": 94.68,
+        "otm_call_iv": 84.05,
+        "skew_25d": 10.63,
+        "num_instruments": 66,
+        "num_ivs_fetched": 66,
+        "avg_iv": 74.43,
+        "min_iv": 42.1,
+        "max_iv": 120.45
+      },
+      "expiry_2d": {
+        "days_to_expiry": 1.7,
+        "atm_strike": 60500.0,
+        "atm_iv": 57.42,
+        "otm_put_iv": 93.31,
+        "otm_call_iv": 70.69,
+        "skew_25d": 22.62,
+        "num_instruments": 54,
+        "num_ivs_fetched": 54,
+        "avg_iv": 67.13,
+        "min_iv": 52.9,
+        "max_iv": 117.15
+      },
+      "expiry_3d": {
+        "days_to_expiry": 2.7,
+        "atm_strike": 60500.0,
+        "atm_iv": 58.73,
+        "otm_put_iv": 91.54,
+        "otm_call_iv": 65.99,
+        "skew_25d": 25.55,
+        "num_instruments": 54,
+        "num_ivs_fetched": 54,
+        "avg_iv": 66.17,
+        "min_iv": 54.87,
+        "max_iv": 106.47
+      },
+      "expiry_4d": {
+        "days_to_expiry": 3.7,
+        "atm_strike": 60500.0,
+        "atm_iv": 57.82,
+        "otm_put_iv": 82.71,
+        "otm_call_iv": 59.57,
+        "skew_25d": 23.14,
+        "num_instruments": 38,
+        "num_ivs_fetched": 38,
+        "avg_iv": 61.4,
+        "min_iv": 54.1,
+        "max_iv": 82.71
+      }
+    },
+    "term_structure": [
+      {
+        "days_to_expiry": 0.7,
+        "atm_iv": 45.93
+      },
+      {
+        "days_to_expiry": 1.7,
+        "atm_iv": 57.42
+      },
+      {
+        "days_to_expiry": 2.7,
+        "atm_iv": 58.73
+      },
+      {
+        "days_to_expiry": 3.7,
+        "atm_iv": 57.82
+      }
+    ]
+  },
+  "mstr_alignment": {
+    "analysis_type": "current_snapshot_with_context",
+    "btc_price_at_snapshot": 60663.5,
+    "current_atm_iv": 45.93,
+    "note": "Historical options data requires paid API. Daily snapshots now being collected for future analysis.",
+    "mstr_holdings_context": {
+      "total_btc_owned": 2845866,
+      "pct_of_circulating_supply": 14.59,
+      "recent_purchases_last_30d": "45,191 BTC (Jun 1 + Jun 5)"
+    },
+    "further_work": [
+      "Collect daily Deribit snapshots via cron for prospective analysis",
+      "Use TARDIS or historical Deribit data for retrospective analysis",
+      "Cross-reference options OI concentration around MSTR purchase strikes"
+    ]
+  },
+  "generated_at": "2026-06-06T16:23:47.961389+00:00",
+  "methodology": {
+    "source": "Deribit public REST API (live snapshots)",
+    "limitations": [
+      "Public API does not support historical option IV queries",
+      "Snapshots show only current market state, not time series",
+      "Full historical analysis requires Deribit historical data subscription or TARDIS data",
+      "Skew computed as approximation (nearest available strike to 25d, not interpolated)"
+    ],
+    "future_capability": "Daily snapshots via cron will build a time series for event-window analysis"
+  }
+}

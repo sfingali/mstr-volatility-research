@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-06-06T16:25:48.045361+00:00",
+  "iv_rv_gap_analysis": {
+    "current_rv_daily_decimal": 0.003475,
+    "current_rv_annualized_pct": 6.64,
+    "current_atm_iv_pct": 45.93,
+    "iv_rv_gap_pct": 39.29,
+    "iv_rv_ratio": 6.92,
+    "interpretation": "IV (45.93%) vs RV annualized"
+  },
+  "pin_strike_analysis": {
+    "mstr_avg_buy_price": 80092.12,
+    "current_btc_price": 60663.5,
+    "avg_vs_spot_pct": 32.03,
+    "avg_buy_category": "above_spot",
+    "mstr_total_invested_b": 227.93,
+    "mstr_total_btc": 2845868,
+    "pct_of_supply": 14.59,
+    "strikes_vs_avg": [
+      {
+        "expiry": "expiry_1d",
+        "atm_strike": 60500.0,
+        "avg_buy_price": 80092.12,
+        "distance_pct": 24.46
+      },
+      {
+        "expiry": "expiry_2d",
+        "atm_strike": 60500.0,
+        "avg_buy_price": 80092.12,
+        "distance_pct": 24.46
+      },
+      {
+        "expiry": "expiry_3d",
+        "atm_strike": 60500.0,
+        "avg_buy_price": 80092.12,
+        "distance_pct": 24.46
+      },
+      {
+        "expiry": "expiry_4d",
+        "atm_strike": 60500.0,
+        "avg_buy_price": 80092.12,
+        "distance_pct": 24.46
+      }
+    ]
+  },
+  "historical_iv_proxy": {
+    "n_significant_purchases": 415,
+    "total_btc_in_analysis": 2845844,
+    "total_value_b": 227.93,
+    "avg_rv_daily_decimal": NaN,
+    "avg_rv_annualized_pct": NaN,
+    "avg_iv_proxy_pct": NaN,
+    "avg_drawdown_at_purchase_pct": NaN,
+    "purchase_vol_regime_breakdown": {
+      "low_vol_buys": 0,
+      "med_vol_buys": 0,
+      "high_vol_buys": 0
+    },
+    "note": "IV proxy = realized vol annualized + 5% vol risk premium (typical BTC crypto premium)"
+  },
+  "snapshots_collected": 3,
+  "data_collection_status": {
+    "current_snapshot": "collected",
+    "daily_snapshots_via_cron": "active (18:00 UTC daily)",
+    "historical_options_data": "requires paid API (Deribit historical / TARDIS / Kaiko)",
+    "days_until_meaningful_timeseries": 30
+  },
+  "current_vol_surface_summary": {
+    "atm_iv_front": 45.93,
+    "atm_iv_back": 57.82,
+    "skew_front": 10.63,
+    "skew_back": 23.14,
+    "term_structure_slope": 12.8,
+    "interpretation": "Current vol surface shows strong positive skew (puts > calls) and upward-sloping term structure. This is a fear-driven market consistent with BTC trading near the $60K psychological support. To assess MSTR's impact on the vol surface, we need: (1) Historical data to see if vol skew compresses after MSTR purchases, (2) Multiple daily snapshots being collected now via cron."
+  }
+}
