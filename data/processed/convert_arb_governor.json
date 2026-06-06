@@ -1,0 +1,204 @@
+{
+  "model_type": "convertible_arb_auto_governor",
+  "generated_at": "2026-06-06T16:40:26.602708+00:00",
+  "parameters": {
+    "implied_vol": 0.5,
+    "risk_free_rate": 0.045,
+    "conversion_premium": 0.3
+  },
+  "convert_profiles": [
+    {
+      "issue_date": "2020-12-09",
+      "maturity_year": 2025,
+      "principal": 650000000.0,
+      "coupon": 0.0075,
+      "stock_price_at_issuance": 28.62,
+      "strike_price": 37.21,
+      "conversion_ratio": 17469690.09,
+      "tte_at_issuance_years": 5.06,
+      "delta_at_issuance": 0.7025,
+      "shares_shorted_at_issuance": 15953344.0,
+      "short_interest_pct": 4927.1732
+    },
+    {
+      "issue_date": "2021-02-17",
+      "maturity_year": 2027,
+      "principal": 1050000000.0,
+      "coupon": 0.0,
+      "stock_price_at_issuance": 94.18,
+      "strike_price": 122.43,
+      "conversion_ratio": 8576049.14,
+      "tte_at_issuance_years": 6.87,
+      "delta_at_issuance": 0.7551,
+      "shares_shorted_at_issuance": 8418732.0,
+      "short_interest_pct": 8965.7799
+    },
+    {
+      "issue_date": "2021-06-14",
+      "maturity_year": 2028,
+      "principal": 500000000.0,
+      "coupon": 0.06125,
+      "stock_price_at_issuance": 59.85,
+      "strike_price": 77.8,
+      "conversion_ratio": 6426429.7,
+      "tte_at_issuance_years": 7.55,
+      "delta_at_issuance": 0.7713,
+      "shares_shorted_at_issuance": 6443701.0,
+      "short_interest_pct": 3957.1647
+    },
+    {
+      "issue_date": "2021-11-18",
+      "maturity_year": 2028,
+      "principal": 500000000.0,
+      "coupon": 0.0,
+      "stock_price_at_issuance": 72.74,
+      "strike_price": 94.56,
+      "conversion_ratio": 5287827.0,
+      "tte_at_issuance_years": 7.12,
+      "delta_at_issuance": 0.7613,
+      "shares_shorted_at_issuance": 5233244.0,
+      "short_interest_pct": 3675.0331
+    },
+    {
+      "issue_date": "2022-03-15",
+      "maturity_year": 2032,
+      "principal": 205000000.0,
+      "coupon": 0.0,
+      "stock_price_at_issuance": 39.61,
+      "strike_price": 51.5,
+      "conversion_ratio": 3980721.86,
+      "tte_at_issuance_years": 10.8,
+      "delta_at_issuance": 0.8309,
+      "shares_shorted_at_issuance": 4299651.0,
+      "short_interest_pct": 1428.589
+    },
+    {
+      "issue_date": "2024-03-08",
+      "maturity_year": 2030,
+      "principal": 800000000.0,
+      "coupon": 0.00625,
+      "stock_price_at_issuance": 142.56,
+      "strike_price": 185.33,
+      "conversion_ratio": 4316701.08,
+      "tte_at_issuance_years": 6.81,
+      "delta_at_issuance": 0.7538,
+      "shares_shorted_at_issuance": 4230197.0,
+      "short_interest_pct": 3554.0381
+    },
+    {
+      "issue_date": "2024-06-14",
+      "maturity_year": 2032,
+      "principal": 800000000.0,
+      "coupon": 0.0225,
+      "stock_price_at_issuance": 149.55,
+      "strike_price": 194.42,
+      "conversion_ratio": 4114798.74,
+      "tte_at_issuance_years": 8.55,
+      "delta_at_issuance": 0.7923,
+      "shares_shorted_at_issuance": 4238393.0,
+      "short_interest_pct": 3573.6279
+    },
+    {
+      "issue_date": "2024-09-17",
+      "maturity_year": 2028,
+      "principal": 1010000000.0,
+      "coupon": 0.00875,
+      "stock_price_at_issuance": 131.27,
+      "strike_price": 170.65,
+      "conversion_ratio": 5918511.87,
+      "tte_at_issuance_years": 4.29,
+      "delta_at_issuance": 0.6739,
+      "shares_shorted_at_issuance": 5184719.0,
+      "short_interest_pct": 335.8855
+    },
+    {
+      "issue_date": "2024-11-20",
+      "maturity_year": 2029,
+      "principal": 3000000000.0,
+      "coupon": 0.0,
+      "stock_price_at_issuance": 473.83,
+      "strike_price": 615.98,
+      "conversion_ratio": 4870296.04,
+      "tte_at_issuance_years": 5.11,
+      "delta_at_issuance": 0.7042,
+      "shares_shorted_at_issuance": 4458756.0,
+      "short_interest_pct": 940.3325
+    },
+    {
+      "issue_date": "2025-03-03",
+      "maturity_year": 2030,
+      "principal": 2080000000.0,
+      "coupon": 0.0,
+      "stock_price_at_issuance": 250.92,
+      "strike_price": 326.2,
+      "conversion_ratio": 6376534.4,
+      "tte_at_issuance_years": 5.83,
+      "delta_at_issuance": 0.7269,
+      "shares_shorted_at_issuance": 6025798.0,
+      "short_interest_pct": 610.4845
+    }
+  ],
+  "analysis": {
+    "correlation_suppression_vs_nav_change": {
+      "1d": 0.0099,
+      "5d": 0.0226,
+      "21d": 0.0438
+    },
+    "ols_nav_change_vs_suppression": {
+      "slope": 0.0021,
+      "intercept": -0.0022,
+      "r_squared": 0.0005,
+      "p_value": 0.350493,
+      "std_err": 0.0022,
+      "n_observations": 1713
+    },
+    "cross_correlation_btc_vs_short": {
+      "contemporaneous": null,
+      "by_lag_days": {
+        "lag_-21d": 0.117
+      }
+    },
+    "suppression_by_btc_regime": {
+      "btc_up_5pct": {
+        "mean": 1.4314,
+        "median": 1.179,
+        "std": 1.4325,
+        "n_days": 716
+      },
+      "btc_down_5pct": {
+        "mean": 2.0605,
+        "median": 2.3538,
+        "std": 1.787,
+        "n_days": 509
+      },
+      "btc_flat": {
+        "mean": 1.5045,
+        "median": 0.5045,
+        "std": 1.6295,
+        "n_days": 472
+      }
+    },
+    "counterfactual": {
+      "mean_drag_per_share": 20.2,
+      "max_drag_per_share": 95.96,
+      "actual_latest_price": 120.44,
+      "counterfactual_latest_price": 126.98,
+      "mean_counterfactual_price": 136.5,
+      "max_counterfactual_increase_pct": 50.0
+    },
+    "summary_stats": {
+      "total_active_principal_max": 10.6,
+      "total_short_notional_max": 9.14,
+      "total_short_notional_mean": 3.02,
+      "total_shares_shorted_max": 57471077.0,
+      "total_shares_shorted_mean": 27656737.0,
+      "suppression_factor_max": 5.6699,
+      "suppression_factor_mean": 1.6204,
+      "suppression_factor_median": 1.3083,
+      "suppression_factor_std": 1.6235,
+      "si_pct_of_shares_max": 100.0,
+      "si_pct_of_shares_mean": 58.74,
+      "n_trading_days": 1718
+    }
+  }
+}

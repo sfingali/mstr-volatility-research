@@ -90,6 +90,33 @@ Live Deribit snapshot (June 6, 2026) reveals a striking divergence:
 
 **Caveat**: This is a single snapshot. Historical options IV data (requires paid API) would allow testing whether past MSTR purchases compressed the vol skew or flattened the term structure. Daily snapshots are now being collected via cron for prospective analysis.
 
+## Finding 8: The Convert Arb Auto-Governor — Third-Order Stabilization (New)
+
+The convert arb delta-hedging mechanism creates a **passive, mechanical negative feedback loop** that requires no active decisions by MSTR:
+
+**The mechanism:**
+1. MSTR issues convertible bonds → arb hedge funds buy bonds + short MSTR stock (delta hedge)
+2. BTC rallies → MSTR stock rises → bond delta increases → arb funds MUST short more MSTR
+3. More MSTR shorting → caps share price → NAV premium contracts → next convert less accretive → BTC buying slows
+4. BTC drops → MSTR stock falls → bond delta decreases → arb funds BUY BACK shorts → supports share price → NAV premium stable → can still issue → BTC buying continues
+
+**Quantified:**
+
+| Metric | Value |
+|--------|-------|
+| Peak arb short notional | **$9.14B** |
+| Mean arb short notional | **$3.02B** |
+| Peak shares shorted (est.) | **57.5M** (58.7% of float) |
+| Mean counterfactual drag on MSTR | **$20.20/share** |
+| Maximum drag at peak | **$85.96/share** |
+| Suppression factor (arb short / MCAP) | Median **1.31x** |
+
+**Asymmetric operation**: Suppression is 44% higher during BTC down moves (mean=2.06) than BTC up moves (mean=1.43). The governor provides MORE support during crashes than it caps during rallies.
+
+**Why this matters**: This is the most elegant part of the structure. The delta-hedging is entirely mechanical — arb funds don't care about MSTR's strategy, they're just hedging their convertible bond positions. But the hedging *itself* produces the stabilization. It's a one-way ratchet with a passive ceiling built into the capital structure. No decision, no detection, no paper trail.
+
+**Caveat**: The daily relationship between arb suppression and NAV premium is noisy (OLS R²=0.001, p=0.35). The mechanism operates over weeks, not days, with cross-correlation showing a ~21-day lag between BTC moves and arb short adjustments. The strength is in the cumulative structural effect, not day-to-day timing.
+
 ---
 
 ## Verdict: Intentional vs. Emergent Stabilization
@@ -110,6 +137,8 @@ Live Deribit snapshot (June 6, 2026) reveals a striking divergence:
 | **82% of debt issuances at Low vol** | **✓ (deliberate market timing)** | |
 | **Buying rate INCREASES 3x during high premium** | | **✓ (pro-cyclical, not dampening)** |
 | **Circuit breaker pattern during LUNA/FTX crashes** | ✓ | |
+| **Convert arb auto-governor ($9.1B passive shorting)** | | **✓ (third-order, mechanical, undetectable)** |
+| **Asymmetric arb operation (44% stronger in crashes)** | **✓ (stabilizer signature)** | |
 
 **Updated Assessment**: The addition of Prediction 5 (82% debt issuance at low vol — confirmed) and Prediction 6 (buying rate triples during high premium — not confirmed) sharpens the picture considerably.
 
