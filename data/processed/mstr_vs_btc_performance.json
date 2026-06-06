@@ -1,0 +1,35 @@
+{
+  "historical": {
+    "period_years": 5.8,
+    "btc_return_pct": 412.9,
+    "btc_cagr_pct": 32.4,
+    "mstr_return_pct": 874.3,
+    "mstr_cagr_pct": 47.9,
+    "mstr_vs_btc_ratio": 1.48,
+    "btc_per_share_growth_pct": -30.1,
+    "btc_per_share_cagr_pct": -6.0,
+    "nav_premium_start": 0.47,
+    "nav_premium_end": 1.28
+  },
+  "forward_projection": {
+    "btc_cagr_assumption": 0.25,
+    "years": 10,
+    "scenario_a_btc_hold": {
+      "final_multiple": 9.31,
+      "cagr_pct": 25.0
+    },
+    "scenario_b_mstr_one_way": {
+      "final_multiple": 42.96,
+      "cagr_pct": 45.6,
+      "vs_btc": 4.61
+    },
+    "scenario_c_mstr_two_way": {
+      "final_multiple": 63.97,
+      "cagr_pct": 51.6,
+      "vs_btc": 6.87,
+      "vs_one_way": 1.49
+    }
+  },
+  "key_insight": "\nMSTR overperforms BTC only if:\n1. NAV premium stays elevated (2.0x+) \u2014 the convert engine needs premium\n2. Two-way strategy is real \u2014 crash sells enable exponentially larger recovery buys\n3. BTC/share compounds faster than dilution + premium decay\n\nMSTR underperforms BTC if:\n1. NAV premium stays below 1.0x \u2014 no accretive issuance possible\n2. One-way only \u2014 dilution from ATM programs eats BTC/share gains\n3. Bear market is prolonged \u2014 leverage works in reverse\n\nThe inflection point: at what NAV premium does MSTR's BTC/share growth\noutweigh the premium decay? Our model says ~1.5x is breakeven over cycles.\n",
+  "generated_at": "2026-06-06T16:50:00.991997"
+}

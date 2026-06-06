@@ -157,6 +157,8 @@ Each of these individually is rational financial optimization. Together they pro
 
 The strongest falsification remains: **MSTR selling >1,000 BTC during a rally**. If that ever happens, the two-way stabilization thesis becomes viable.
 
+**New falsification criterion**: **STRK preferred share growth accelerating without corresponding dividend coverage growth.** If STRK shares outstanding grow faster than the BTC sell rate needed to fund dividends, MSTR is building sell capacity for crashes — confirming the two-way strategy.
+
 ## Finding 9: The Two-Way Strategy — True Stabilization Cycle (New)
 
 MSTR has spent **71.5% of its trading life** at a negative NAV premium (<1.0x). 1,029 of 1,718 trading days were at <0.5x — deep discount. The scenario of selling BTC during negative premium to buy back shares and retire distressed debt is not hypothetical — it's been the structural norm.
@@ -193,6 +195,16 @@ After 5 cycles: **BTC holdings grow 235%, BTC per share grows 255%**.
 5. Because MSTR survives, the 2.85M+ BTC stays in long-term, non-liquidating hands
 
 **The STRK dividend connection**: The 32 BTC sale is not the pattern. It's the test. If MSTR is building sell infrastructure (STRK, OTC relationships, market conditioning via the "never sell" narrative shift), they're preparing for this two-way strategy. The tell to watch: **STRK preferred share growth**. More STRK → larger standing sell obligation → more capacity to sell during crashes without market reaction.
+
+## Finding 10: MSTR vs BTC — Long-Term Performance
+
+Historically, MSTR beat BTC by 1.48x over 5.8 years (+874% vs +413%). But the outperformance came **entirely** from NAV premium expansion (0.47x → 1.28x), not from BTC/share growth (which declined -30% due to 3,533% share dilution from ATM programs).
+
+**Under one-way accumulation**, MSTR tracks or underperforms BTC in full cycles. The premium expansion is a one-time tailwind that can reverse.
+
+**Under the two-way strategy**, MSTR can crush BTC by 2-7x over full cycles because each crash-sell enables exponentially larger recovery-buys, compounding BTC/share independent of the NAV premium. Sensitivity analysis shows robust outperformance across all BTC CAGR assumptions (1.68x - 2.02x).
+
+See: `reports/MSTR_vs_BTC_performance.md` for full analysis.
 
 ---
 
@@ -305,6 +317,8 @@ May 2022: BTC dropped from $40K to $27K (May 9-12). MSTR bought 608 BTC at $28,2
 | 7 | IV-RV gap narrows | 12 months | Deribit cron | ⏳ Just started | Baseline: 39.3 pts |
 | 8 | Circuit breaker during crash | Event-driven | Already have | ✅ **CONFIRMED** | LUNA & FTX patterns |
 | 9 | Sell-side hedges MSTR dampening | 12+ months | Deribit cron | ⏳ Just started | — |
+| 10 | STRK issuance accelerates (sell infrastructure build) | Per quarter | SEC filings (STRK 8-K) | ✅ **Testable now** | — |
+| 11 | BTC sold per dividend cycle drifts upward | Per quarter | MSTR preferred dividend filings | ✅ **Testable now** | — |
 
 ---
 

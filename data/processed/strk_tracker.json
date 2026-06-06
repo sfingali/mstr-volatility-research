@@ -1,0 +1,47 @@
+{
+  "current_snapshot": {
+    "date": "2026-06-01",
+    "strk_shares": 800000,
+    "annual_dividend_per_share": 8.0,
+    "btc_sold_to_date": 32,
+    "annual_dividend_obligation": 6400000.0,
+    "annual_btc_needed": 83.0,
+    "btc_per_quarter": 21.0,
+    "btc_per_quarter_as_pct_of_holdings": 0.002901
+  },
+  "scenarios": {
+    "1.0x_strk": {
+      "strk_shares": 800000,
+      "annual_dividend": 6400000.0,
+      "annual_btc_sell": 83.0
+    },
+    "2.0x_strk": {
+      "strk_shares": 1600000,
+      "annual_dividend": 12800000.0,
+      "annual_btc_sell": 165.0
+    },
+    "5.0x_strk": {
+      "strk_shares": 4000000,
+      "annual_dividend": 32000000.0,
+      "annual_btc_sell": 413.0
+    },
+    "10.0x_strk": {
+      "strk_shares": 8000000,
+      "annual_dividend": 64000000.0,
+      "annual_btc_sell": 826.0
+    }
+  },
+  "alert_thresholds": {
+    "btc_per_quarter_baseline": 8,
+    "yellow_alert": 25,
+    "red_alert": 100,
+    "regime_change": 1000
+  },
+  "tells_to_watch": [
+    "STRK shares outstanding growth rate (quarter-over-quarter)",
+    "BTC sold per dividend cycle (currently ~8 BTC/quarter)",
+    "STRK as % of total capital structure",
+    "Time gap between STRK issuance and BTC sell announcement"
+  ],
+  "generated_at": "2026-06-06T16:51:05.847258"
+}
